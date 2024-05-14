@@ -18,6 +18,19 @@ body {
     text-align: center;
 }
 
+/* titolo */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* paragrafino */
+.container p {
+    padding-bottom: 20px;
+    width: 50%;
+    line-height: 2;
+    margin: auto;
+}
+
 /* riga */
 ul {
     list-style: none;
