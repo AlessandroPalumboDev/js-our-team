@@ -1,6 +1,7 @@
 'use strict';
 
 // MILESTONE 0
+
 // Creo un array di oggetti
 const team = [
     {
@@ -40,3 +41,16 @@ const team = [
     }
 ];
 
+// MILESTONE 1
+
+// Stampo su console l'array
+console.table(team);
+
+// stampo su console ogni singolo oggetto dentro l'array con un ciclo
+for (let i = 0; i < team.length; i++) {
+    console.log(team[i]);
+    // stampo su console ogni singola chiave dei vari oggetti contenuti dall' array con lo stesso ciclo
+    console.log(team[i].nome);
+    console.log(team[i].ruolo);
+    console.log(team[i].foto);
+};
