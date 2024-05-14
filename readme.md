@@ -17,7 +17,7 @@ BONUS 2:
 Organizzare i singoli membri in card/schede
 
 
-MILESTONE 0
-- Creo un array di oggetti. 
-    Ogni oggetto corrisponde ad una persona del team
-    Ogni oggetto ha 3 chiavi (nome, ruolo e immagine)
+- MILESTONE 0
+    - Creo un array di oggetti. 
+        Ogni oggetto corrisponde ad una persona del team
+        Ogni oggetto ha 3 chiavi (nome, ruolo e immagine)
