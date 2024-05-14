@@ -88,7 +88,7 @@ for (let i = 0; i < team.length; i++) {
     // Sostituisco l'elemento creato 'p' della stringa della foto con l'elemento 'img'
     const fotoOut = document.createElement('img');
     // Aggiungo l'attributo .src per la ricerca del file giusto usando l'interpolazione per sfruttare la stringa = al nome del file
-    fotoOut.src = (`../img/${currentObj.foto}`);
+    fotoOut.src = (`./img/${currentObj.foto}`);
     
     
     // definisco variabile del nome creando l'elemento html h3
