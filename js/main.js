@@ -84,8 +84,8 @@ for (let i = 0; i < team.length; i++) {
     fotoOut.src = (`../img/${currentObj.foto}`);
     
     
-    // definisco variabile del nome creando l'elemento html h4
-    const nomeOut = document.createElement('h4');
+    // definisco variabile del nome creando l'elemento html h3
+    const nomeOut = document.createElement('h3');
     // definisco variabile del nome creando l'elemento html p
     const ruoloOut = document.createElement('p');
 

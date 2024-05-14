@@ -43,8 +43,8 @@ Organizzare i singoli membri in card/schede
 - BONUS 2
     - Creo direttamente nel file html un elemento 'div' con classe container
     - Definisco la variabile di 'container'
+    - (Avendo creato il 'div' container adesso la lista non verrà richiamata dall'elemento esistente ma creata nel file js)
     - Nel ciclo di stampa nel file js:
-        - (Avendo creato il 'div' container adesso la lista non verrà richiamata dall'elemento esistente ma creata nel file js)
         - Definisco variabile card creando l' elemento html 'div' 
         - Aggiungo una classe alla variabile 'card' che mi serirà per lo stile
         - le tre variabili delle chiavi vengono appese alla card
