@@ -31,7 +31,11 @@ Organizzare i singoli membri in card/schede
     - Creo un ciclo per la stampa in pagina che:
         - Definisce la variabile del singolo oggetto dell'array
         - Definisce la variabile li creando l'elemento html
-        - Definisce le variabili dell'immagine, del nome e del ruoo creando gli elementi html
+        - Definisce le variabili dell'immagine, del nome e del ruolo creando gli elementi html
         - Appende ai tre elementi html le corrispettive chiavi dell'oggetto
         - Appende ad li i tre elementi html
-        - Appende alla lista l'elemento li
+        - Appende alla lista l'elemento 'li'
+
+- BONUS 1
+    - Sostituisco l'elemento creato 'p' della stringa della foto con l'elemento 'img'
+    - Aggiungo l'attributo .src per la ricerca del file giusto usando l'interpolazione per sfruttare la stringa = al nome del file

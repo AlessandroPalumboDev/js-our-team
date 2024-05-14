@@ -25,7 +25,7 @@ const team = [
     {
         nome: 'Angela Lopez',
         ruolo: 'Social Media Manager',
-        foto: 'angela-lope-social-media-manager.jpg'
+        foto: 'angela-lopez-social-media-manager.jpg'
     },
 
     {
@@ -63,7 +63,7 @@ const lista = document.querySelector('ul');
 
 // Creo un ciclo per la stampa in pagina
 for (let i = 0; i < team.length; i++) {
-    
+
     // definisco variabile oggetto
     const currentObj = team[i];
 
@@ -73,7 +73,13 @@ for (let i = 0; i < team.length; i++) {
 
 
     // definisco variabile dell'immagine creando l'elemento html( un paragrafo perchè è momentaneamente una stringa)
-    const fotoOut = document.createElement('p');
+    // BONUS 1
+    // Sostituisco l'elemento creato 'p' della stringa della foto con l'elemento 'img'
+    const fotoOut = document.createElement('img');
+    // Aggiungo l'attributo .src per la ricerca del file giusto usando l'interpolazione per sfruttare la stringa = al nome del file
+    fotoOut.src = (`../img/${currentObj.foto}`);
+    
+    
     // definisco variabile del nome creando l'elemento html h4
     const nomeOut = document.createElement('h4');
     // definisco variabile del nome creando l'elemento html p
