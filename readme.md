@@ -24,3 +24,14 @@ Organizzare i singoli membri in card/schede
 
 - MILESTONE 1
     - Stampo su console tutte le informazioni dell'array
+
+- MILESTONE 2
+    - Creo una lista sul file html dandole una classe
+    - Definisco la variabile della lista nel file js
+    - Creo un ciclo per la stampa in pagina che:
+        - Definisce la variabile del singolo oggetto dell'array
+        - Definisce la variabile li creando l'elemento html
+        - Definisce le variabili dell'immagine, del nome e del ruoo creando gli elementi html
+        - Appende ai tre elementi html le corrispettive chiavi dell'oggetto
+        - Appende ad li i tre elementi html
+        - Appende alla lista l'elemento li

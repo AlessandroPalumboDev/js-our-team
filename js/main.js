@@ -54,3 +54,41 @@ for (let i = 0; i < team.length; i++) {
     console.log(team[i].ruolo);
     console.log(team[i].foto);
 };
+
+
+// MILESTONE 2
+
+// Definisco la variabile della lista nel file js
+const lista = document.querySelector('ul');
+
+// Creo un ciclo per la stampa in pagina
+for (let i = 0; i < team.length; i++) {
+    
+    // definisco variabile oggetto
+    const currentObj = team[i];
+
+
+    // definisco variabile li creando l'elemento html
+    const li = document.createElement('li');
+
+
+    // definisco variabile dell'immagine creando l'elemento html( un paragrafo perchè è momentaneamente una stringa)
+    const fotoOut = document.createElement('p');
+    // definisco variabile del nome creando l'elemento html h4
+    const nomeOut = document.createElement('h4');
+    // definisco variabile del nome creando l'elemento html p
+    const ruoloOut = document.createElement('p');
+
+
+    // appendo la stringa dell'immagine alla suo elemento html
+    fotoOut.append(currentObj.foto);
+    // appendo ad h4 la chiave nome dell'oggetto
+    nomeOut.append(currentObj.nome);
+    // appendo a p la chiave ruolo dell'oggetto
+    ruoloOut.append(currentObj.ruolo);
+
+    // appendo ad li le variabili dei tre elementi html
+    li.append(fotoOut, nomeOut, ruoloOut);
+    // appendo alla lista li
+    lista.append(li);
+};
