@@ -39,3 +39,15 @@ Organizzare i singoli membri in card/schede
 - BONUS 1
     - Sostituisco l'elemento creato 'p' della stringa della foto con l'elemento 'img'
     - Aggiungo l'attributo .src per la ricerca del file giusto usando l'interpolazione per sfruttare la stringa = al nome del file
+
+- BONUS 2
+    - Creo direttamente nel file html un elemento 'div' con classe container
+    - Definisco la variabile di 'container'
+    - Nel ciclo di stampa nel file js:
+        - (Avendo creato il 'div' container adesso la lista non verrà richiamata dall'elemento esistente ma creata nel file js)
+        - Definisco variabile card creando l' elemento html 'div' 
+        - Aggiungo una classe alla variabile 'card' che mi serirà per lo stile
+        - le tre variabili delle chiavi vengono appese alla card
+        - la card viene appesa all' elemento 'li'
+        - appendo lista a container
+    - Stilizzo tramite il file di stile css usando 'ul' come riga e 'li' come colonna

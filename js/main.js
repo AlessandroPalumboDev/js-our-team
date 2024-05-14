@@ -59,7 +59,11 @@ for (let i = 0; i < team.length; i++) {
 // MILESTONE 2
 
 // Definisco la variabile della lista nel file js
-const lista = document.querySelector('ul');
+const lista = document.createElement('ul');
+
+// BONUS 2
+// Definisco la variabile di 'container'
+const container = document.querySelector('.container');
 
 // Creo un ciclo per la stampa in pagina
 for (let i = 0; i < team.length; i++) {
@@ -85,6 +89,11 @@ for (let i = 0; i < team.length; i++) {
     // definisco variabile del nome creando l'elemento html p
     const ruoloOut = document.createElement('p');
 
+// BONUS 2
+    // Definisco variabile card creando l' elemento html 'div'
+    const card = document.createElement('div');
+    // Aggiungo una classe alla variabile 'card' che mi serirà per lo stile
+    card.classList.add('card');
 
     // appendo la stringa dell'immagine alla suo elemento html
     fotoOut.append(currentObj.foto);
@@ -93,8 +102,13 @@ for (let i = 0; i < team.length; i++) {
     // appendo a p la chiave ruolo dell'oggetto
     ruoloOut.append(currentObj.ruolo);
 
-    // appendo ad li le variabili dei tre elementi html
-    li.append(fotoOut, nomeOut, ruoloOut);
+    // le tre variabili delle chiavi vengono appese alla card
+    card.append(fotoOut, nomeOut, ruoloOut);
+
+    // la card viene appesa all' elemento 'li'
+    li.append(card);
     // appendo alla lista li
     lista.append(li);
+    // appendo lista a container
+    container.append(lista);
 };
