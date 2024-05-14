@@ -30,7 +30,7 @@ const team = [
 
     {
         nome: 'Scott Estrada',
-        ruolo: 'Deeloper',
+        ruolo: 'Developer',
         foto: 'scott-estrada-developer.jpg'
     },
 
@@ -38,6 +38,13 @@ const team = [
         nome: 'Barbara Ramos',
         ruolo: 'Graphic Designer',
         foto: 'barbara-ramos-graphic-designer.jpg'
+    },
+
+    // DEBUG AGGIUNTO MEMBRO AL TEAM
+    {
+        nome: 'Alessandro Palumbo',
+        ruolo: 'Full-Stack Web Developer',
+        foto: 'alessandro-palumbo-full-stack-web-developer.jpg'
     }
 ];
 
